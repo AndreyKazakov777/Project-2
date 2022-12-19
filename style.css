@@ -1,0 +1,1453 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body {
+    margin: 0;
+}
+section {
+    width: 100%;
+}
+body > .header {
+    background-color: black;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.container {
+    margin: auto;
+    display: flex;
+    height: 45px;
+    max-width: 1256px;
+    border-radius: 2px;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between; 
+    height: 83px;
+    width: 100%;
+    border-radius: 0px;
+}
+.logo {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#E3B873;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+.header-navigation_item {
+    margin-right: 47px;
+}
+.header-navigation_item:last-child {
+    margin-right: 0;
+}
+.header-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+.header-navigation_item a:hover {
+    color: #E3B873;
+}    
+.tel {
+    color:#E3B873;
+}
+.header_button {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 161px;
+    height: 45px;
+    padding: 13px 33px;
+    background: #E3B873;
+    border-radius: 2px;
+    border: none;
+}
+@media screen and (max-width: 375px) {
+    .header-navigation, .header_button {
+        display: none;
+    }
+}
+.hero {
+    background-image: url(img/image_hero.jpg);
+    background-size: cover;
+    height: 707px;
+    box-shadow: 0 0 0 1000px rgba(0,0,0,0.7) inset;
+}
+.hero_container {
+    position: absolute;
+    width: 100%;
+    height: 305px;
+    left: 684px;
+    top: 277px;
+}
+.title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+.hero_span {
+    color: #E3B873;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+}
+.p1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 89px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.hero_button {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid; 
+    border-radius: 2px;
+    height: 51px;
+    width: 207px;
+    padding: 0px;
+    background: transparent;
+}
+.hero_button:hover {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    border: 0px;
+}
+button#bt1 {
+    left: 134px;  
+    top: 531px;
+}
+button#bt2 {
+    left: 361px;  
+    top: 531px;  
+    margin-left: 20px;
+}
+@media screen and (max-width: 375px) {
+    .hero {
+        height: 476px;
+    }
+    .hero_container {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 476px;
+        width: 100%;
+        left: 0px;
+        top: 85px;
+        padding: 0px 18px;   
+    }
+    .title, .hero_span {
+        font-family: Yeseva One;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0px;       
+}
+    .p1 {
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 32px;
+    }
+    .hero_button {
+        height: 51px;
+        width: 338.607421875px;
+        left: 18px;
+        top: 344px;
+    }
+    #bt2 {
+        margin-left: 0px;
+        margin-top: 26px;
+    }
+}
+.two {
+    background-color: black;
+    padding-top: 107px;
+    height: 1074px;
+}
+.two_container {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    width: 1171px;
+    margin: auto;
+}
+.two_container .two_container_left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-self: stretch;
+    justify-content: flex-start;
+    margin-top: 66px;
+}
+.two_container .two_container_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 679px;
+    align-self: stretch;
+}
+.two_container_right .two_ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 56px;
+    margin: 0;
+    list-style-type: none;
+}
+.two_container_right {
+    margin-top: 45px;
+    display: flex;
+    align-self: stretch;
+    width: 100%;
+}
+.two_img {
+    margin-top: 45px;
+    display: flex;
+    align-self: stretch;
+    width: 679px;
+}
+.two_container_left .two_description {
+    margin: 34px 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+}
+.two_container_left .two_info {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 34px;
+    row-gap: 34px;
+}
+.arrows_points {
+    height: 13.276092529296875px;
+    width: 205.68312072753906px;
+    margin-top: 80px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+.arrows_points .arr_point {
+    height: 9px;
+    width: 9px;
+    background: #FFFFFF4D;
+    border-radius: 30px;
+}
+.arrows_points .white {
+    background: #FFFFFF;
+}
+.arrows_points .arrow {
+    color: white;
+    border-radius: 0px;
+    font-size: xx-large;
+}
+.two_a {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF4D;
+    text-decoration: none
+}
+.two_a:hover {
+    color: #E3B873;
+    border-bottom: 1px solid;
+    padding-bottom: 7px;
+}
+.two_h2 {
+    margin: 0px;
+    height: 66px;
+    width: 253px;
+    top: 176.3602294921875px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.two_h3 {
+    margin: 0px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.two_span {
+    margin-top: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
+@media screen and (max-width: 1440px) {
+    .hero_container {
+        left: 134px;
+    }
+    .two {
+        padding: 107px 134px 0 134px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .two {
+        padding: 36px 18px 0 18px;
+    }
+    .two_container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 374px;
+    }
+  .two_container_left {
+    display: flex;
+    justify-content: center;
+    width: 374px;
+  }  
+    .two_h2 {
+        font-family: Yeseva One;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.07em;
+        text-align: center;
+        height: 66px;
+        width: 228px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+}        
+.two_description {
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 86px;
+    width: 311px;
+}
+    .arrows_points, .two_ul, .two_a {
+        display: none;
+    }
+.two_img {
+    height: 241.3549346923828px;
+    width: 340px;
+}
+}
+
+.online-control_container {
+    width: 817px;
+    margin: -344px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.online-control_container .h3_online {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.camera-icon {
+    margin: 0 10px 0;
+}
+.line-icon {
+    height: 1.5px;
+    width: 32px;
+    border-radius: 30px;
+    color: white;
+}
+.online-control_container .video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+    margin-top: 30px;
+}
+.video .painter {
+    filter: brightness(20%);
+}
+
+.video .play {
+    height: 135px;
+    width: 135px;
+    position: absolute;
+    z-index: 1;
+}
+.three_line {
+    height: 1.543344259262085px;
+    width: 55px;
+    border-radius: 30px;
+    background-color: #E3B873;
+    border: none;
+    margin-top: 62.5px;
+}
+.three_text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    Width: 681px;
+    Height: 130.91px;
+    margin: auto;
+    margin-top: 30.96px;
+    color: #363636;
+}
+.three_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 51px;
+    /* width: 769px; */
+    width: 100%;
+    margin-top: 95px;
+}
+.three_form_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -90px;
+}
+.three_form_input .input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #3636364D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    width: 231px;
+}
+.three_form_input .label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5)
+}
+.three_button {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    height: 51px;
+    width: 200px;
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    border: none;
+}
+.three_checkbox {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 18px;
+    margin-top: 33.24px;
+}
+.three_span {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 8.62px;
+    color: #181818;
+    height: 16.23828125px;
+}
+.checkbox {
+    position: relative;
+    margin: 0px;
+    height: 18px;
+    width: 18px;
+}
+@media screen and (max-width: 375px) {
+   .three {
+    background-color:#131313;
+
+   }
+    .online-control_container {
+        width: 338px;
+        position: relative;
+        padding-top: 85px;
+    }
+    .painter {
+        height: 207px;
+        width: 340px;
+    }
+    .play {
+        height: 40px;
+        width: 40px;
+    }
+    .three_line {
+        margin-top: 28px;
+        margin-bottom: 0px;
+    }
+    .three_text {
+        font-family: Nunito Sans;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white; 
+        width: 340px; 
+        margin-top: 21px; 
+    }
+    .three_form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: start;
+        
+    }
+    input[class="input"]::-webkit-input-placeholder {
+            color: white;
+    }
+    .three_form_input {
+        text-align: left;
+        margin-top: -6px;
+    }
+    .three_span {
+        color: #FFFFFF;
+    }
+    .three_checkbox {
+        margin-bottom: 38px;
+    }
+    .three_button {
+        margin-top: 44px;
+        width: 340px;
+        height: 51px;
+    }
+}
+
+/* .types_of_repair_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 148px;
+}
+.types_of_repair_container .types_of {
+    margin: 0px;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.types_of_repair_container .tour_png {
+    height: 28.000049591064453px;
+    width: 114px;
+    margin: 13px auto 0px;
+}
+.four_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.four_info .repair_type {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 608px;
+    width: 392px;
+    margin-right: 30px;
+}
+.repair_type image {
+    position: absolute;
+    top: 0;
+}
+.repair_type .info {
+    height: 313px;
+    width: 330px;
+    position: absolute;
+    bottom: 0;
+}
+.info .info_list {
+    height: 286px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding: 25px 34px;
+}
+.info_list .header {
+    font-family: Yeseva One;
+    height: 21px;
+    width: 228px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info_list .list {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    padding: 0px;
+    margin: 13px 0 0 0;
+    list-style-type: none;
+}
+.info .from {
+    position: absolute;
+    bottom: 0;
+    height: 54px;
+    width: 228px;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+
+.types_of_repair_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 148px;
+}
+.types_of_repair_container .types_of {
+    margin: 0px;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+.types_of_repair_container .tour_png {
+    height: 28.000049591064453px;
+    width: 114px;
+    margin: 13px auto 0px;
+}
+.four_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.four_info .repair_type {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 608px;
+    width: 392px;
+    margin-right: 30px;
+}
+.repair_type image {
+    position: absolute;
+    top: 0;
+}
+.repair_type .info {
+    height: 313px;
+    width: 330px;
+    position: absolute;
+    bottom: 0;
+}
+.info .info_list {
+    height: 286px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding: 25px 34px;
+}
+.info_list .header {
+    font-family: Yeseva One;
+    height: 21px;
+    width: 228px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.info_list .list {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    padding: 0px;
+    margin: 13px 0 0 0;
+    list-style-type: none;
+}
+.info .from {
+    position: absolute;
+    bottom: 0;
+    height: 54px;
+    width: 228px;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 375px){
+    .types_of_repair_container {
+        margin: 64px;      
+    }
+    .four_info {
+        display: flex;
+        flex-direction: column;
+        padding: 0 18px;
+    }
+    .repair_type {
+        margin-bottom: 59px;
+    }
+}
+ 
+.five_section {
+    display: flex;
+    height: 725.44px;
+    width: 100%;
+    margin-bottom: 242.09px;
+    margin-top: 124px;
+}
+.house-half {
+    display: flex;
+    justify-content: flex-end;
+    height: 645px;
+    width: 50%;
+}
+.house_bgr {
+    position: absolute;
+    z-index: 1;
+}
+.five_01_04 {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 19.1px;
+    vertical-align: top;
+    color: #363636;  
+    justify-content: space-between;
+    height: 473.6193542480469px;
+    width: 374.807373046875px;
+    margin: 117.14px 79.19px 54.24px 249px;
+}
+.five_01-04_text {
+    height: 41.83566665649414px;
+    width: 378.807373046875px;
+    display: flex;
+    align-items: center;
+}
+.five_circle {
+    display: flex;
+    height: 49.75705337524414px;
+    width: 49.75705337524414px;
+    border-radius: 30px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    background-color: #E3B873;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid white;
+    box-shadow: 0px 5px 15px 0px #E3B87326;
+}    
+.five_01-04_p {
+    height: 39px;
+    width: 320px;
+    margin: 0px;
+    margin-left: 9px;
+}
+.black-half {
+    display: flex;
+    flex-direction: column;
+    height: 725.44px;
+    width: 50%;
+    margin-left: 131px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.black_pig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.five_form {
+    display: flex;
+    flex-direction: column;
+    height: 509px;
+    width: 506px;
+    border-radius: 0px;
+    background-color: black;
+}
+.five_p {
+    color: white;
+    margin: 28px 105px 39px 104px;
+    height: 47px;
+    width: 297px;
+    left: 937.9998474121094px;
+    top: 3607.0000610351562px;
+    font-family: Nunito Sans;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25.78px;
+}
+.try {
+    display: flex;
+    flex-direction: column;
+}
+.five_form_incide {
+    display: flex;
+    margin-left: 49px;
+    height: 244px;
+    width: 408px;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.five_label {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+}
+.five_input {
+    font-family: Nunito Sans;
+    width: 408px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: black;
+    padding: 0px;
+    border-style: none;
+    margin-bottom: 16px;
+}   
+input[class="five_input"]::-webkit-input-placeholder {
+    color: white;
+    border-bottom: 10px solid #FFFFFF26;
+   } 
+.five_label_agree {
+    cursor: pointer;
+}
+.five_checkbox {
+    display: none;
+}
+.five_fake {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+.five_fake::before {
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.five_checkbox:checked + .five_fake::before{
+    opacity: 1;
+  }
+.i_agree {
+    height: 18px;
+    width: 385.61956787109375px;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 49px;
+}
+.five_button {
+    display: flex;
+    height: 51px;
+    width: 213px;
+    margin: 39px 49px 27px 244px;
+    color: #FFFFFF;
+    background-color: #E3B873;
+    font-size: 13px;
+    line-height: 21.28px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0px;
+    border: 0px; 
+}
+.five_span {
+   margin-left: 8.62px;
+}
+.five_pig {
+    display: flex;
+    margin-top: 38.44px;
+    height: 72px;
+    width: 441.0000305175781px;
+    align-items: center;
+}
+.pig {
+    height: 72px;
+    width: 72px;
+}
+.five_help {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E3B873;
+    box-shadow: 0px 3px 10px 0px #E3B87326;
+    margin: 0px;
+}
+@media screen and (max-width: 375px) {
+    .five_section {
+        display: none;
+    }
+}
+.six_black_bgr {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 864px;
+    /* width: 1440px; */
+    width: 100%;
+    background: #181818; 
+    opacity: .9;
+}
+.six_bgr {
+    background-image: url(img/6.1.png);
+    height: 864px;
+    width: 1440px;
+}
+.six_h2 {
+    position: absolute;
+    font-family: Yeseva One;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E3B873;
+    height: 66px;
+    width: 411px;
+    margin: 137.47px 930px 660.53px 99px;
+    text-transform: uppercase;
+}
+.six_ul {
+    position: absolute;
+    font-family: Nunito Sans;
+    margin-top: 250.47px;
+    margin-left: 99px;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 515.9990234375px;
+    width: 299px;  
+}
+.six_li {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.six_a {
+    text-decoration: none;
+    font-family: Nunito Sans;
+    color: #FFFFFF;
+}
+.six_a:hover {
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}   
+.six_img62 {
+    position: absolute;
+    height: 557.8831787109375px;
+    width: 354px;
+    margin-top: -41.16px;
+    margin-left: 587px;
+
+}
+.six_img63 {
+    position: absolute;
+    height: 349.3717041015625px;
+    width: 354px;
+    margin-left: 587px;
+    margin-top: 555.83px;
+}
+.six_img64 {
+    position: absolute;
+    height: 275px;
+    width: 354px;
+    margin-left: 984px;
+    margin-top: -112.53px;
+}
+.six_img65 {
+    position: absolute;
+    margin: 199.47px 102px 0px 984px;
+    height: 624.8848266601562px;
+    width: 354px;
+}
+@media screen and (max-width: 375px) {
+    .six_black_bgr, .six_text {
+        display: none;
+    }
+    .six_h2 {
+        margin-top: -93px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 338px;
+    }
+    .six_bgr {
+        width: none;
+        margin-left: 18px;
+        text-align: center;
+        height: 242px;
+        width: 340px;
+    }
+    .six_img62, .six_img63, .six_img64, .six_img65 {
+        display: none;
+    }
+
+}
+.seven {
+    height: 1109px;
+    width: 100%;
+}
+.seven_h3 {
+    margin: 110.47px 0px 13.4px 0px;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.seven_svg {
+    margin: auto;
+    height: 27.62010955810547px;
+    width: 114px;
+    background-image: url(img/svg7.svg);
+    color: #E3B873;   
+}
+.seven_p {
+    margin: auto;
+    margin-top: 24.25px; 
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    font-family: Nunito Sans;
+    height: 57px;
+    width: 476px;
+}
+.seven_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}
+.fedosova, .afanasyev, .kiriev {
+    height: 428px;
+    width: 376px;
+    box-shadow: 0px 10px 50px 0px #0000000A;
+    margin-right: 54px;
+}
+.fed_head, .afa_head, .kir_head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 23.12px;
+    margin-left: 20px;
+}
+.fed_img, .afa_img, .kir_img {
+    border-radius: 76px;
+}
+.fed_name, .afa_name, .kir_name{
+    height: 42px;
+    width: 178px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+.fed_text, .afa_text, .kir_text {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 216px;
+    width: 324px;
+    color: #959595;
+    margin-left: 20px;
+    margin-right: 31.92px;
+}
+.metre {
+    display: flex;
+    justify-content: center;
+    margin-left: -221px;
+    margin-top: -43px;
+}
+.afa_metre, .kir_metre, .fed_metre {
+    margin-left: 97px;
+}
+@media screen and (max-width: 375px) {
+    .seven {
+        display: none;
+    }
+}
+.eight {
+    position: relative;
+    display: flex;
+    height: 953.8981323242188px;
+    background: rgba(0,0,0, 0.5);    
+    background: #181818;
+    justify-content: center;
+    z-index: -1;
+}
+.eight_black {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -222.66px;  
+    background-color: black;
+    height: 445.3192138671875px;
+    width: 883px;
+    z-index: 1;
+}
+.eight_question {
+    height: 376.515625px;
+    width: 520px;
+    margin: 34.4px 181.5px;
+}
+.have {
+    margin: auto;
+    margin-bottom: 45.84px;   
+    height: 26px;
+    width: 257px;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.eight_form {
+    height: 304.71484375px;
+    width: 520px;
+    border-radius: 0px;
+    background-color: black;
+
+} 
+.eight_form_name_phone {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    width: 540px;
+}
+.eight_form_name, .eight_form_phone {
+    height: 45px;
+    width: 231px;
+}
+.eight_form_question {
+    height: 45px;
+    width: 516.8176879882812px;
+    text-align: left;
+    margin-top: 48.76px;
+}
+.eight_label {
+    display: flex;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+}
+.eight_input {
+    font-family: Nunito Sans;
+    width: 231px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: black;
+    padding: 0px;
+    border-style: none;
+}   
+#eight_question {
+    width: 540px;
+}
+input[class="eight_input"]::-webkit-input-placeholder {
+    color: white;
+    border-bottom: 1px solid #FFFFFF26;
+   } 
+   .eight_button {
+    margin-top: 50.45px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    height: 51px;
+    width: 200px;
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    border: none;
+}
+.eight_form_checkbox {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 18px;
+    margin-top: 33.24px;
+    justify-content: center;
+}
+.eight_span {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 8.62px;
+    color: white;
+    height: 16.23828125px;
+}
+.eight_checkbox {
+    position: relative;
+    margin: 0px;
+    height: 18px;
+    width: 18px;
+}
+.image_bgr {
+    position: absolute;
+    height: 953.8981323242188px;
+    width: 1440px;
+    opacity: .08;
+}
+.rostov {
+    display: flex;
+    flex-direction: column;
+    margin: 274.67px auto 0px;
+}
+.eight_text {
+    display: flex;
+    position: relative;
+    margin: 0px;
+    height: 51px;
+    width: 589px;
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.eignt_sign {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 26px auto 0px;
+}
+.eight_map {
+    position: absolute;
+    height: 465px;
+    width: 925px;
+    margin: 422.97px 260px 65.93px 255px;
+}
+
+@media screen and (max-width: 375px) {
+    .eight {
+        margin-top: -120px;
+    }
+    .eight_black {
+        margin-top: 120px;
+    }
+    .eight_question {
+        display: flex;
+        flex-direction: column;
+    }
+    .eight_form_incide{
+        display: flex;
+        flex-direction: column;
+    }
+    .eight_form_phone {
+        margin-top: 20px;
+    }
+    .eight_form_name_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 90px;
+        margin-top: 7px;
+        width: 348px;
+    }
+    .eight_form_question {
+        margin-left: 90px;
+        margin-top: 87px;
+    }
+    .eignt_sign {
+        margin-bottom: 23px;
+    }
+    .eight_form_button {
+        margin-top: -17px;
+    }
+    .rostov {
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+        margin-top: 100px;
+    }
+    .eight_map {
+        display: block;
+    max-height: 400px;
+    max-width: 375px;
+    padding: 0 18px 0 7px;
+
+
+    }
+    .eight_text {
+        font-family: Yeseva One;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 340px;
+        height: 70.5px;
+    }
+}
+    
+
+.footer {
+    background-color: black;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        display: none;
+    }
+}
